@@ -36,6 +36,9 @@ const userSchema = new Schema({
     coverImage :{
         type: String
     },
+    refreshToken :{
+        type : String
+    },
     watchHistory :{
         type : Schema.Types.ObjectId,
         ref : "Video"
